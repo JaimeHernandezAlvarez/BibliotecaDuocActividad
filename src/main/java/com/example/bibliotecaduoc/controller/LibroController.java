@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 public class LibroController {
     //Test
+    private int number = 1;
     @Autowired
     private LibroService libroService;
 
