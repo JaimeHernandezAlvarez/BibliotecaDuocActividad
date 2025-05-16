@@ -19,8 +19,6 @@ import org.springframework.web.bind.annotation.PutMapping;
 
 public class LibroController {
     //Test
-    private int a = 0;
-
     @Autowired
     private LibroService libroService;
 
